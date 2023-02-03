@@ -13,13 +13,13 @@ export const revalidate = 60;
 export const metadata = {
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'Mehmet Semih BABACAN',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'https://msbabacan.tech',
+    siteName: 'Mehmet Semih BABACAN',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: 'https://msbabacan.tech/og.jpg',
         width: 1920,
         height: 1080,
       },

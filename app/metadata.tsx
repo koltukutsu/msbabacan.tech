@@ -1,14 +1,14 @@
 export default {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Mehmet Semih BABACAN',
+    template: '%s | Mehmet Semih BABACAN',
   },
   robots: {
     index: true,
     follow: true,
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Mehmet Semih BABACAN',
     card: 'summary_large_image',
   },
   icons: {
