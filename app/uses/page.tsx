@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Uses',
   description:
-    "Here's what tech I'm currently using for coding, videos, and music.",
+    "These are the things that I currently use and enjoy producing.",
 };
 
 export default function UsesPage() {

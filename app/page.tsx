@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
 import {
-  ArrowIcon,
+  BookIcon,
   GitHubIcon,
-  TwitterIcon,
   ViewsIcon,
 } from 'components/icons';
 import { name, about, bio, avatar } from 'lib/info';
@@ -30,10 +29,9 @@ export const metadata = {
 };
 
 export default async function HomePage() {
-  const [starCount, views, tweetCount] = await Promise.all([
-    getStarCount(),
+  // const [starCount, views, tweetCount] = await Promise.all([
+    const [views] = await Promise.all([
     getBlogViews(),
-    getTweetCount(),
   ]);
 
   return (
@@ -53,13 +51,19 @@ export default async function HomePage() {
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
           <p className="flex items-center gap-2">
-            <TwitterIcon />
-            {`${tweetCount.toLocaleString()} tweets all time`}
+            <BookIcon />
+            Reads all the time
+
           </p>
           <p className="flex items-center gap-2">
             <GitHubIcon />
-            {`${starCount.toLocaleString()} stars on this repo`}
+            Helps all the time
           </p>
+          <p className="flex items-center">
+            <ViewsIcon />
+            Intenta mejorar el mismo todo el tiempo
+          </p>
+
           <p className="flex items-center">
             <ViewsIcon />
             {`${views.toLocaleString()} blog views all time`}
@@ -75,13 +79,13 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://github.com/koltukutsu/"
           >
-            <ArrowIcon />
-            <p className="h-7">follow me on twitter</p>
+            <GitHubIcon />
+            <p className="h-7 pl-2"> follow me on github</p>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
@@ -91,7 +95,7 @@ export default async function HomePage() {
             <ArrowIcon />
             <p className="h-7">get email updates</p>
           </a>
-        </li>
+        </li> */}
       </ul>
     </section>
   );

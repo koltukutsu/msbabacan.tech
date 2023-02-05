@@ -24,17 +24,29 @@ const navItems = {
     y: 69,
     w: '56px',
   },
+  '/uses': {
+    name: 'tools',
+    x: 127,
+    y: 104,
+    w: '56px',
+  },
+  '/resume': {
+    name: 'resumé',
+    x: 182,
+    y: 140,
+    w: '100px',
+  },
   '/guestbook': {
     name: 'guestbook',
     x: 182,
-    y: 104,
+    y: 174,
     w: '100px',
   },
 };
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
+    <Link aria-label="Mehmet Semih BABACAN" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
         width="25"
