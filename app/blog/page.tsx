@@ -25,8 +25,8 @@ export default async function BlogPage() {
             href={`/blog/${post.slug}`}
           >
             <div className="w-full flex flex-col">
-              <p>{post.title}</p>
-              <ViewCounter slug={post.slug} trackView={false} />
+              <p className='font-extralight text-m font-serif mb-1'>{post.title}</p>
+              {/* <ViewCounter slug={post.slug} trackView={false} /> */}
             </div>
           </Link>
         ))}

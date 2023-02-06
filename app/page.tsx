@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
+// import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
+// import { getTweetCount, getStarCount } from 'lib/metrics';
 import {
   BookIcon,
   GitHubIcon,
@@ -30,9 +31,9 @@ export const metadata = {
 
 export default async function HomePage() {
   // const [starCount, views, tweetCount] = await Promise.all([
-    const [views] = await Promise.all([
-    getBlogViews(),
-  ]);
+  //   const [views] = await Promise.all([
+  //   getBlogViews(),
+  // ]);
 
   return (
     <section className="">
@@ -46,7 +47,7 @@ export default async function HomePage() {
           className="rounded-full grayscale"
           src={avatar}
           placeholder="blur"
-          width={100}
+          width={180}
           priority
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
@@ -56,17 +57,17 @@ export default async function HomePage() {
 
           </p>
           <p className="flex items-center gap-2">
-            <GitHubIcon />
+          <BookIcon />
             Helps all the time
           </p>
-          <p className="flex items-center">
-            <ViewsIcon />
-            Intenta mejorar el mismo todo el tiempo
+          <p className="flex items-center gap-2">
+          <BookIcon />
+            Intenta mejorar el mismo<br></br> todo el tiempo
           </p>
 
           <p className="flex items-center">
-            <ViewsIcon />
-            {`${views.toLocaleString()} blog views all time`}
+            {/* <ViewsIcon /> */}
+            {/* {`${views.toLocaleString()} blog views all time`} */}
           </p>
         </div>
       </div>
