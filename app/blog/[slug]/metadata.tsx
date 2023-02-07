@@ -11,8 +11,8 @@ export async function generateMetadata({ params }) {
     image,
     slug,
   } = post;
-  const title = `${postTitle} - Lee Robinson`;
-  const ogImage = image ? image : `https://leerob.io/api/og?title=${title}`;
+  const title = `${postTitle} - Mehmet Smeih BABACAN`;
+  const ogImage = image ? image : `https://leerob.io/api/og?title=${title}`; // TODO: change this image
 
   return {
     title,

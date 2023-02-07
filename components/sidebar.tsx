@@ -47,7 +47,7 @@ const navItems = {
 function Logo() {
   return (
     <Link aria-label="Mehmet Semih BABACAN" href="/">
-      <motion.svg
+      {/* <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
         width="25"
         height="37"
@@ -84,7 +84,90 @@ function Logo() {
           d="M232 314.998H129.852L232 232.887V314.998Z"
           fill="currentColor"
         />
-      </motion.svg>
+      </motion.svg> */}
+     <motion.svg width="52" height="49" viewBox="0 0 52 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <motion.rect 
+        x="2.16891" 
+        y="1.37167" 
+        width="7.11983" 
+        height="38.9026" 
+        fill="black"
+        initial={{ x: -200, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            type: 'linear',
+            stiffness: 50,
+          }}
+      />
+      <motion.rect 
+        x="42.04" 
+        y="1.37167" 
+        width="7.11983" 
+        height="38.9026" 
+        fill="currentColor"
+        initial={{ x: +200, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            type: 'linear',
+            stiffness: 50,
+          }}
+      />
+      <motion.path 
+        d="M8.71557 22.24L9.23268 1.42756L26.3763 23.3601L8.71557 22.24Z" 
+        fill="currentColor"
+        animate={{
+          opacity: 1,
+          pathLength: 1,
+        }}
+        transition={{
+          duration: 0.5,
+          type: 'spring',
+          stiffness: 50,
+        }}
+      />
+      <motion.path 
+        d="M43.1427 22.7677L42.05 1.3816L26.3764 23.3601L43.1427 22.7677Z" 
+        fill="currentColor"
+        animate={{
+          opacity: 1,
+          pathLength: 1,
+        }}
+        transition={{
+          duration: 0.5,
+          type: 'spring',
+          stiffness: 50,
+        }}
+      />
+      <motion.path 
+        d="M1.72061 40.7631L9.33081 32.1359L12.6001 43.2391L6.62031 47.5104L1.72061 40.7631Z" 
+        fill="white"
+        animate={{
+          opacity: 1,
+          pathLength: 1,
+        }}
+        transition={{
+          duration: 0.5,
+          type: 'spring',
+          stiffness: 50,
+        }}
+      />
+      <motion.path 
+        d="M49.4112 40.3258L41.9589 32.6887L40.7904 44.0934L46.7701 43.2391L49.4112 40.3258Z" 
+        fill="white"
+        animate={{
+          opacity: 1,
+          pathLength: 1,
+        }}
+        transition={{
+          duration: 0.5,
+          type: 'spring',
+          stiffness: 50,
+        }}
+      />
+    </motion.svg>
+
     </Link>
   );
 }
