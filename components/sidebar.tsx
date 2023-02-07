@@ -24,14 +24,14 @@ const navItems = {
     y: 69,
     w: '56px',
   },
-  '/uses': {
+  '/tools': {
     name: 'tools',
     x: 127,
     y: 104,
     w: '56px',
   },
   '/resume': {
-    name: 'resumé',
+    name: 'résumé',
     x: 182,
     y: 140,
     w: '100px',
