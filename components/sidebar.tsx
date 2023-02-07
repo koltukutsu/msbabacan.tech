@@ -26,21 +26,21 @@ const navItems = {
   },
   '/tools': {
     name: 'tools',
-    x: 127,
+    x: 184,
     y: 104,
     w: '56px',
   },
   '/resume': {
     name: 'résumé',
-    x: 182,
+    x: 240,
     y: 140,
-    w: '100px',
+    w: '80px',
   },
   '/guestbook': {
     name: 'guestbook',
-    x: 182,
+    x: 320,
     y: 174,
-    w: '100px',
+    w: '90px',
   },
 };
 
