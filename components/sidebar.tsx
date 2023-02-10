@@ -48,7 +48,7 @@ function Logo() {
   return (
     <Link aria-label="Mehmet Semih BABACAN" href="/">
       {/* <motion.svg
-        className="text-black dark:text-white h-[25px] md:h-[37px]"
+        className="text-black text-white h-[25px] md:h-[37px]"
         width="25"
         height="37"
         viewBox="0 0 232 316"
@@ -86,7 +86,7 @@ function Logo() {
         />
       </motion.svg> */}
      <motion.svg width="52" height="43" viewBox="0 0 52 43" fill="none"
-     className="text-black dark:text-white h-[52px] md:h-[43px]">
+     className=" text-white h-[52px] md:h-[43px]">
       <motion.rect 
         x="2.16891" y="1.37167" 
         width="7.11983" height="38.9026" 
@@ -159,7 +159,7 @@ export default function Navbar() {
                 {/* Desktop version, hidden on mobile, animates y axis */}
                 <div className="hidden md:block">
                   <motion.div
-                    className="absolute bg-neutral-100 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
+                    className="absolute  bg-neutral-800 h-[34px] rounded-md z-[-1]"
                     layoutId="test2"
                     initial={{ opacity: 0, y: navItems[pathname].y }}
                     animate={{
@@ -177,7 +177,7 @@ export default function Navbar() {
                 {/* Mobile version, hidden on desktop, animates x axis */}
                 <div className="block md:hidden">
                   <motion.div
-                    className="absolute bg-neutral-100 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
+                    className="absolute  bg-neutral-800 h-[34px] rounded-md z-[-1]"
                     layoutId="test"
                     initial={{ opacity: 0, x: navItems[pathname].x }}
                     animate={{
@@ -203,7 +203,7 @@ export default function Navbar() {
                   key={path}
                   href={path}
                   className={clsx(
-                    'transition-all hover:text-neutral-800 dark:hover:text-neutral-200 py-[5px] px-[10px]',
+                    'transition-all hover:text-neutral-200 py-[5px] px-[10px]',
                     {
                       'text-neutral-500': !isActive,
                       'font-bold': isActive,

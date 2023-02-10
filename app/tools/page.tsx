@@ -8,10 +8,10 @@ export default function UsesPage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif mb-8">Tools I use</h1>
-      <p className="text-neutral-700 dark:text-neutral-300 mt-2 mb-8">
+      <p className="text-neutral-300 mt-2 mb-8">
         Here's what tech I'm currently using for coding, and doing basically everything.
       </p>
-      <div className="prose prose-neutral dark:prose-invert">
+      <div className="prose prose-invert">
         <h3 id="dev-tools">Developer Tools</h3>
         <ul>
           <li>...</li>

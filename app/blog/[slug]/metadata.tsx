@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
     slug,
   } = post;
   const title = `${postTitle} - Mehmet Smeih BABACAN`;
-  const ogImage = image ? image : `https://leerob.io/api/og?title=${title}`; // TODO: change this image
+  const ogImage = image ? image : `https://msbabacan.tech/api/og?title=${title}`; // TODO: change this image
 
   return {
     title,
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
       description,
       type: 'article',
       publishedTime,
-      url: `https://leerob.io/blog/${slug}`,
+      url: `https://msbabacan.tech/blog/${slug}`,
       images: [
         {
           url: ogImage,

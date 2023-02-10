@@ -30,7 +30,7 @@ export default function Tweet({
     referenced_tweets && referenced_tweets.find((t) => t.type === 'quoted');
 
   return (
-    <div className="tweet rounded-lg border border-neutral-200 dark:border-neutral-800 px-6 py-4 my-4 bg-white dark:bg-neutral-900 max-w-xl mx-auto">
+    <div className="tweet rounded-lg border border-neutral-800 px-6 py-4 my-4  bg-neutral-900 max-w-xl mx-auto">
       <div className="flex items-center">
         <a
           className="flex h-9 w-9"
@@ -54,14 +54,14 @@ export default function Tweet({
           className="author flex flex-col ml-4 !no-underline"
         >
           <span
-            className="flex items-center font-semibold !text-neutral-900 dark:!text-neutral-100 leading-5 tracking-tight"
+            className="flex items-center font-semibold !text-neutral-100 leading-5 tracking-tight"
             title={author.name}
           >
             {author.name}
             {author.verified ? (
               <svg
                 aria-label="Verified Account"
-                className="ml-1 text-blue-500 dark:text-white inline h-4 w-4"
+                className="ml-1 text-white inline h-4 w-4"
                 viewBox="0 0 24 24"
               >
                 <g fill="currentColor">
@@ -71,7 +71,7 @@ export default function Tweet({
             ) : null}
           </span>
           <span
-            className="text-sm !text-neutral-500 dark:!text-neutral-400 leading-4"
+            className="text-sm  !text-neutral-400 leading-4"
             title={`@${author.username}`}
           >
             @{author.username}
@@ -96,7 +96,7 @@ export default function Tweet({
           </svg>
         </a>
       </div>
-      <div className="mt-4 mb-1 leading-normal whitespace-pre-wrap  !text-neutral-700 dark:!text-neutral-200">
+      <div className="mt-4 mb-1 leading-normal whitespace-pre-wrap   !text-neutral-200">
         {formattedText}
       </div>
       {media && media.length ? (
@@ -121,7 +121,7 @@ export default function Tweet({
       ) : null}
       {quoteTweet ? <Tweet {...quoteTweet} /> : null}
       <a
-        className="!text-neutral-500 dark:!text-neutral-400 text-sm !hover:underline"
+        className=" !text-neutral-400 text-sm !hover:underline"
         href={tweetUrl}
         target="_blank"
         rel="noopener noreferrer"
@@ -135,7 +135,7 @@ export default function Tweet({
       </a>
       <div className="flex text-sm mt-2">
         <a
-          className="flex items-center mr-4 !text-neutral-500 dark:!text-neutral-400 hover:!text-blue-600 transition !hover:underline"
+          className="flex items-center mr-4  !text-neutral-400 hover:!text-blue-600 transition !hover:underline"
           href={replyUrl}
           target="_blank"
           rel="noopener noreferrer"
@@ -153,7 +153,7 @@ export default function Tweet({
           </span>
         </a>
         <a
-          className="flex items-center mr-4 !text-neutral-500 dark:!text-neutral-400 hover:!text-green-600 transition !hover:underline"
+          className="flex items-center mr-4  !text-neutral-400 hover:!text-green-600 transition !hover:underline"
           href={retweetUrl}
           target="_blank"
           rel="noopener noreferrer"
@@ -171,7 +171,7 @@ export default function Tweet({
           </span>
         </a>
         <a
-          className="flex items-center !text-neutral-500 dark:!text-neutral-400 hover:!text-red-600 transition !hover:underline"
+          className="flex items-center  !text-neutral-400 hover:!text-red-600 transition !hover:underline"
           href={likeUrl}
           target="_blank"
           rel="noopener noreferrer"

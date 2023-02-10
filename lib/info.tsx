@@ -5,7 +5,7 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm a senior double major student who loves making projects and doing researches.
+      Hey, I'm a Computer Engineer and Industrial Engineer who loves to code and create new things.
     </>
   );
 };
