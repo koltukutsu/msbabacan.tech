@@ -110,7 +110,7 @@ export function Mdx({ code, tweets }: MdxProps) {
   };
 
   return (
-    <article className="prose prose-quoteless prose-neutral prose-invert">
+    <article className="prose prose-invert ">
       <Component components={{ ...components, StaticTweet }} />
     </article>
   );
