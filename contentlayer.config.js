@@ -47,7 +47,7 @@ export const Blog = defineDocumentType(() => ({
     },
     coverImageBlur: {
       type: 'string',
-      required: true,
+      // required: true,
     },
     coverImageAlt: {
       type: 'string',

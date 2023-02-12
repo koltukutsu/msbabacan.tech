@@ -39,10 +39,10 @@ export default async function BlogPage() {
               <div className="md:flex">
                 <div className="md:shrink-0">
                   <Image
-                    width="512"
-                    height="512"
+                    width="256"
+                    height="256"
                     blurDataURL={post.coverImageBlur}
-                    placeholder="blur"
+                    placeholder='blur'
                     className="rounded-xl h-48 w-full object-cover md:h-[3/10] md:w-48"
                     src={post.coverImage}
                     alt={post.coverImageAlt}
