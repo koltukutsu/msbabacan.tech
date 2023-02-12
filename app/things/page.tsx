@@ -11,7 +11,7 @@ export default function ThingsPage() {
         Well, here are some things that I would like to share. The images I
         generated with Midjourney, some useful links I use every now and then,
         books and movies that I strongly (though not sure about the strong part
-        xD) reccomend.
+        xD) recommend 😉
       </p>
       <div className="prose prose-invert">
         <h2 className="font-bold text-3xl font-serif mb-8">Jump</h2>
