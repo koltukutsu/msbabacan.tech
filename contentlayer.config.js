@@ -41,6 +41,22 @@ export const Blog = defineDocumentType(() => ({
     image: {
       type: 'string',
     },
+    coverImage: {
+      type: 'string',
+      required: true,
+    },
+    coverImageBlur: {
+      type: 'string',
+      required: true,
+    },
+    coverImageAlt: {
+      type: 'string',
+      required: true,
+    },
+    category: {
+      type: 'string',
+      required: true,
+    },
   },
   computedFields,
 }));
