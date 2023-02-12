@@ -34,7 +34,7 @@ const navItems = {
     name: "things",
     x: 240 ,
     y: 140,
-    w: "140px",
+    w: "76px",
   },
   "/resume": {
     name: "résumé",
