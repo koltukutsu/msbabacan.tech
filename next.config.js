@@ -12,6 +12,11 @@ const nextConfig = {
         hostname: 'pbs.twimg.com',
         pathname: '/**',
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        pathname: '/**'
+      }
     ],
   },
   experimental: {
