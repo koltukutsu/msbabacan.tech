@@ -1,7 +1,7 @@
 import Image from "next/image";
 // import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
 // import { getTweetCount, getStarCount } from 'lib/metrics';
-import { BookIcon, GitHubIcon, InstagramIcon, LinkedInIcon, ViewsIcon } from "components/icons";
+import { BookIcon, GitHubIcon, InstagramIcon, LinkedInIcon, LinkTrIcon, ViewsIcon } from "components/icons";
 import { name, about, bio, avatar } from "lib/info";
 
 export const revalidate = 60;
@@ -67,20 +67,20 @@ export default async function HomePage() {
             className="flex items-center gap-2 hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            // href="https://github.com/koltukutsu/"
+            href="https://www.instagram.com/mehmetsemihbabacan/"
           >
             <InstagramIcon />
             <p className="h-7 pl-2"> instagram</p>
           </a>
-          {/* <a
+          <a
             className="flex items-center gap-2 hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            // href="https://github.com/koltukutsu/"
+            href="https://linktr.ee/daddycan"
           >
-            <InstagramIcon />
+            <LinkTrIcon />
             <p className="h-7 pl-2"> more</p>
-          </a> */}
+          </a>
           {/* <p className="flex items-center gap-2">
             <BookIcon />
             Helps all the time
