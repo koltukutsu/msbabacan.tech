@@ -58,7 +58,7 @@ export default async function HomePage() {
             className="flex items-center gap-2 hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/koltukutsu/"
+            href="https://www.linkedin.com/in/mehmetsemihbabacan/"
           >
             <LinkedInIcon />
             <p className="h-7 pl-2"> linkedin</p>
@@ -67,11 +67,20 @@ export default async function HomePage() {
             className="flex items-center gap-2 hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/koltukutsu/"
+            // href="https://github.com/koltukutsu/"
           >
             <InstagramIcon />
             <p className="h-7 pl-2"> instagram</p>
           </a>
+          {/* <a
+            className="flex items-center gap-2 hover:text-neutral-200 transition-all"
+            rel="noopener noreferrer"
+            target="_blank"
+            // href="https://github.com/koltukutsu/"
+          >
+            <InstagramIcon />
+            <p className="h-7 pl-2"> more</p>
+          </a> */}
           {/* <p className="flex items-center gap-2">
             <BookIcon />
             Helps all the time
