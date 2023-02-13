@@ -67,7 +67,7 @@ export default function ThingsPage() {
         <Link
           key="showcase-generated-ai-images"
           className="hover:text-gray-400 no-underline"
-          href="https://gallery-with-cloudinary.vercel.app/"
+          href="https://semih-ai-galery.vercel.app/"
         >
           <p className="hover:text-gray-400 no-underline">
             Let's go to Showcase 
