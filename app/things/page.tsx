@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "Uses cases",
   description: "These are the things that I currently use and enjoy producing.",
@@ -61,6 +63,13 @@ export default function ThingsPage() {
           >
             Midjourney
           </a>
+          <Link
+            key="showcase-generated-ai-images"
+            className="hover:text-gray-400 no-underline"
+            href="https://gallery-with-cloudinary.vercel.app/"
+          >
+            Let's go to Showcase
+          </Link>
         </h2>
         <h2 className="font-bold text-3xl font-serif mb-8" id="books">
           Books I Recommend
