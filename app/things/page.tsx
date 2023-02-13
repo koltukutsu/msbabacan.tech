@@ -65,10 +65,12 @@ export default function ThingsPage() {
           </a>
           <Link
             key="showcase-generated-ai-images"
-            className="hover:text-gray-400 no-underline"
+            // className=""
             href="https://gallery-with-cloudinary.vercel.app/"
           >
-            Let's go to Showcase
+            <p className="text-neutral-300 mt-2 mb-8 hover:text-gray-400 ">
+              Let's go to Showcase
+            </p>
           </Link>
         </h2>
         <h2 className="font-bold text-3xl font-serif mb-8" id="books">
