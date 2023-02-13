@@ -63,16 +63,16 @@ export default function ThingsPage() {
           >
             Midjourney
           </a>
-          <Link
-            key="showcase-generated-ai-images"
-            // className=""
-            href="https://gallery-with-cloudinary.vercel.app/"
-          >
-            <p className="text-neutral-300 mt-2 mb-8 hover:text-gray-400 ">
-              Let's go to Showcase
-            </p>
-          </Link>
         </h2>
+        <Link
+          key="showcase-generated-ai-images"
+          // className=""
+          href="https://gallery-with-cloudinary.vercel.app/"
+        >
+          <p className="text-neutral-300 mt-2 mb-8 hover:text-gray-400 ">
+            Let's go to Showcase
+          </p>
+        </Link>
         <h2 className="font-bold text-3xl font-serif mb-8" id="books">
           Books I Recommend
         </h2>
