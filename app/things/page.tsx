@@ -70,7 +70,7 @@ export default function ThingsPage() {
           href="https://gallery-with-cloudinary.vercel.app/"
         >
           <p className="hover:text-gray-400 no-underline">
-            Let's go to Showcase
+            Let's go to Showcase 
           </p>
         </Link>
         <h2 className="font-bold text-3xl font-serif mb-8" id="books">
