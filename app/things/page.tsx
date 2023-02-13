@@ -69,7 +69,7 @@ export default function ThingsPage() {
           // className=""
           href="https://gallery-with-cloudinary.vercel.app/"
         >
-          <p className="text-neutral-300 mt-2 mb-8 hover:text-gray-400 ">
+          <p className="hover:text-gray-400 no-underline">
             Let's go to Showcase
           </p>
         </Link>
