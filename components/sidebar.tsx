@@ -18,38 +18,75 @@ const navItems = {
     y: 35,
     w: "65px",
   },
-  "/blog": {
-    name: "blog",
+  "/tools": {
+    name: "tools",
     x: 127,
     y: 69,
     w: "56px",
   },
-  "/tools": {
-    name: "tools",
-    x: 184,
-    y: 104,
-    w: "56px",
-  },
   "/things": {
     name: "things",
-    x: 240 ,
-    y: 140,
+    x: 189 ,
+    y: 104,
     w: "70px",
   },
   "/resume": {
     name: "résumé",
-    x: 310,
-    y: 174,
+    x: 253,
+    y: 140,
     w: "80px",
   },
   "/guestbook": {
     name: "guestbook",
-    x: 385,
-    y: 210,
+    x: 317,
+    y: 174,
     w: "90px",
   },
 };
-
+// const navItems = {
+//   "/": {
+//     name: "home",
+//     x: 0,
+//     y: 0,
+//     w: "64px",
+//   },
+//   "/about": {
+//     name: "about",
+//     x: 64,
+//     y: 35,
+//     w: "65px",
+//   },
+//   "/blog": {
+//     name: "blog",
+//     x: 127,
+//     y: 69,
+//     w: "56px",
+//   },
+//   "/tools": {
+//     name: "tools",
+//     x: 184,
+//     y: 104,
+//     w: "56px",
+//   },
+//   "/things": {
+//     name: "things",
+//     x: 240 ,
+//     y: 140,
+//     w: "70px",
+//   },
+//   "/resume": {
+//     name: "résumé",
+//     x: 310,
+//     y: 174,
+//     w: "80px",
+//   },
+//   "/guestbook": {
+//     name: "guestbook",
+//     x: 385,
+//     y: 210,
+//     w: "90px",
+//   },
+// };
 function Logo() {
   return (
     <Link aria-label="Mehmet Semih BABACAN" href="/">
