@@ -43,6 +43,50 @@ import { motion } from "framer-motion";
 //     w: "90px",
 //   },
 // };
+// const navItems = {
+//   "/": {
+//     name: "home",
+//     x: 0,
+//     y: 0,
+//     w: "64px",
+//   },
+//   "/about": {
+//     name: "about",
+//     x: 64,
+//     y: 35,
+//     w: "65px",
+//   },
+//   "/blog": {
+//     name: "blog",
+//     x: 127,
+//     y: 69,
+//     w: "56px",
+//   },
+//   "/tools": {
+//     name: "tools",
+//     x: 184,
+//     y: 104,
+//     w: "56px",
+//   },
+//   "/things": {
+//     name: "things",
+//     x: 240 ,
+//     y: 140,
+//     w: "70px",
+//   },
+//   "/resume": {
+//     name: "résumé",
+//     x: 310,
+//     y: 174,
+//     w: "80px",
+//   },
+//   "/guestbook": {
+//     name: "guestbook",
+//     x: 385,
+//     y: 210,
+//     w: "90px",
+//   },
+// };
 const navItems = {
   "/": {
     name: "home",
@@ -50,42 +94,36 @@ const navItems = {
     y: 0,
     w: "64px",
   },
-  "/about": {
-    name: "about",
-    x: 64,
-    y: 35,
-    w: "65px",
-  },
   "/blog": {
     name: "blog",
-    x: 127,
-    y: 69,
+    x: 64,
+    y: 35,
     w: "56px",
   },
   "/tools": {
     name: "tools",
-    x: 184,
-    y: 104,
+    x: 120,
+    y: 69,
     w: "56px",
   },
   "/things": {
     name: "things",
-    x: 240 ,
-    y: 140,
+    x: 176 ,
+    y: 104,
     w: "70px",
   },
   "/resume": {
     name: "résumé",
-    x: 310,
-    y: 174,
+    x: 240,
+    y: 140,
     w: "80px",
   },
-  "/guestbook": {
-    name: "guestbook",
-    x: 385,
-    y: 210,
-    w: "90px",
-  },
+  // "/guestbook": {
+  //   name: "guestbook",
+  //   x: 325,
+  //   y: 174,
+  //   w: "90px",
+  // },
 };
 function Logo() {
   return (

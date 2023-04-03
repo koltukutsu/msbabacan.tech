@@ -9,30 +9,52 @@
   <lastmod>2023-01-30T23:59:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-<url>
+<!-- <url>
   <loc>https://msbabacan.tech/about</loc>
   <lastmod>2023-01-30T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
-</url>
+</url> -->
 <url>
   <loc>https://msbabacan.tech/tools</loc>
   <lastmod>2023-01-30T23:59:14+00:00</lastmod>
   <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://msbabacan.tech/blog/02-exploring-the-top-gpt-like-technologies-for-conversational-ai-and-chatbots</loc>
+  <lastmod>2023-04-30T23:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://msbabacan.tech/blog/03-what-are-the-chatgpt-alternatives-can-you-explain-it-to-me</loc>
+  <lastmod>2023-04-30T23:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://msbabacan.tech/blog/04-vector-databases-a-detailed-overview-with-pinecon</loc>
+  <lastmod>2023-04-30T23:59:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://msbabacan.tech/blog/01-the-impact-of-artificial-intelligence-on-web-design</loc>
+  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://msbabacan.tech/blog</loc>
   <lastmod>2023-01-30T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://msbabacan.tech/resume</loc>
   <lastmod>2023-01-30T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
+<!-- <url>
   <loc>https://msbabacan.tech/guestbook</loc>
   <lastmod>2023-01-30T23:59:14+00:00</lastmod>
   <priority>0.50</priority>
-</url>
+</url> -->
 
 </urlset>
