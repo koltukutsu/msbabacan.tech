@@ -67,7 +67,7 @@ export default async function HomePage() {
             className="flex items-center gap-2 hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.instagram.com/mehmetsemihbabacan/"
+            href="https://www.instagram.com/msemihbabacan/"
           >
             <InstagramIcon />
             <p className="h-7 pl-2"> instagram</p>
